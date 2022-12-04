@@ -8,7 +8,7 @@ class Main{
         auto2.licence = "amd223";
         auto2.driver = "Davvid";
         auto2.passenger = 100;
-        System.out.println("Car licence: "+auto.licence);
-        System.out.println("Car2 licence: "+auto2.licence);
+        auto.printDataCar();
+        auto2.printDataCar();
     }
 }
