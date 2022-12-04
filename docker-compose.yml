@@ -1,0 +1,8 @@
+version: '1.0'
+
+services:
+  hello-java:
+    container_name: uber-project
+    build:
+      context: .
+      dockerfile: Dockerfile
